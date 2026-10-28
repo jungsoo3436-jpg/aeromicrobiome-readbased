@@ -1,0 +1,18 @@
+Sample	SampleID	Control	Site	Sample_type	Sample_type2	Date	Month	Temp	Humidity	Wind_speed	CH4
+W_BB1	W_BB1	Positive	BurnsBog	Water	Reference	Nov.7.2024	Nov_2024	15.7	55.1	0.56	2.597
+W_BB2	W_BB2	Positive	BurnsBog	Water	Reference	Nov.7.2024	Nov_2024	15.7	55.1	0.56	2.597
+S_MK1	S_MK1	Positive	Minnekhada	Soil	Reference	Nov.28.2024	Nov_2024	2.6	77.2	0	2.624
+S_MK2	S_MK2	Positive	Minnekhada	Soil	Reference	Nov.28.2024	Nov_2024	2.6	77.2	0	2.624
+S_VL1	S_VL1	Positive	Landfill	Soil	Reference	Dec.06.2024	Dec_2024	3.4	87.8	0.8	85.978
+S_VL2	S_VL2	Positive	Landfill	Soil	Reference	Dec.06.2024	Dec_2024	3.4	87.8	0.8	85.978
+S_RM1	S_RM1	Positive	Marsh	Soil	Reference	Mar.01.2025	Mar_2025	12.7	70.23	0.42	2.29
+S_RM2	S_RM2	Positive	Marsh	Soil	Reference	Mar.01.2025	Mar_2025	12.7	70.23	0.42	2.29
+S_DF1	S_DF1	Positive	Dairy Farm	Soil	Reference	Mar.04.2025	Mar_2025	12.1	73.28	0.1	26.75
+S_DF2	S_DF2	Positive	Dairy Farm	Soil	Reference	Mar.04.2025	Mar_2025	12.1	73.28	0.1	26.75
+A_BB1	A_BB1	Positive	BurnsBog	Air	Air	Nov.7.2024	Nov_2024	15.7	55.1	0.56	2.597
+A_MK1	A_MK1	Positive	Minnekhada	Air	Air	Nov.28.2024	Nov_2024	2.6	77.2	0	2.624
+A_VL2	A_VL2	Positive	Landfill	Air	Air	Dec.06.2024	Dec_2024	3.4	87.8	0.8	85.978
+A_RM1	A_RM1	Positive	Marsh	Air	Air	Mar.01.2025	Mar_2025	12.7	70.23	0.42	2.29
+AC_RM2	AC_RM2	Negative	Marsh	Air	Air	Mar.01.2025	Mar_2025	12.7	70.23	0.42	2.29
+A_DF1	A_DF1	Positive	Dairy Farm	Air	Air	Mar.04.2025	Mar_2025	12.1	73.28	0.1	26.75
+AC_DF2	AC_DF2	Negative	Dairy Farm	Air	Air	Mar.04.2025	Mar_2025	12.1	73.28	0.1	26.75

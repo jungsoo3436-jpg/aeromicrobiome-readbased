@@ -1,0 +1,17 @@
+The derived data files in data/ and the figures in figures/ are licensed under
+the Creative Commons Attribution 4.0 International License (CC BY 4.0).
+
+You are free to share and adapt this material for any purpose, including
+commercially, provided you give appropriate credit, link to the license, and
+indicate if changes were made.
+
+Full licence text: https://creativecommons.org/licenses/by/4.0/legalcode
+
+Attribution:
+  Park J, Krause SMB, Martens NH, Fowler SJ. Methane oxidation genes in
+  atmospheric aerosols reflect local methane availability rather than uniform
+  dilution from source environments. 2026.
+  https://doi.org/10.64898/2026.10.13.758901
+
+Code in analysis/ and legacy/ is licensed separately under the MIT License;
+see LICENSE.

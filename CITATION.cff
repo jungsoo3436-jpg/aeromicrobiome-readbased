@@ -1,0 +1,47 @@
+cff-version: 1.2.0
+message: If you use this code or the derived data, please cite the paper below.
+title: "aeromicrobiome-readbased: read-based community and gene-centric analysis of paired aerosol and source-environment metagenomes"
+abstract: >-
+  Analysis code and derived data for a paired aerosol and source-environment
+  shotgun metagenomic survey across five Metro Vancouver sites spanning a
+  40-fold range in ambient methane. Covers Kraken2/Bracken taxonomic profiling,
+  diversity and ordination, site-blocked DESeq2 differential abundance, and
+  curated marker gene profiling against a non-redundant gene catalog.
+type: software
+license: MIT
+repository-code: "https://github.com/jungsoo3436-jpg/aeromicrobiome-readbased"
+keywords:
+  - bioaerosols
+  - microbial dispersal
+  - methane oxidation
+  - shotgun metagenomics
+  - methanotrophy
+authors:
+  - family-names: Park
+    given-names: Jungsoo
+    affiliation: "Department of Biological Sciences, Simon Fraser University, Burnaby, Canada"
+    email: jungsoop@sfu.ca
+  - family-names: Krause
+    given-names: Sascha M. B.
+    affiliation: "School of Ecological and Environmental Sciences, East China Normal University, Shanghai, China"
+  - family-names: Martens
+    given-names: Nesil Han
+    affiliation: "Department of Biological Sciences, Simon Fraser University, Burnaby, Canada"
+  - family-names: Fowler
+    given-names: S. Jane
+    affiliation: "Department of Biological Sciences, Simon Fraser University, Burnaby, Canada"
+    email: sjfowler@sfu.ca
+preferred-citation:
+  type: article
+  title: "Methane oxidation genes in atmospheric aerosols reflect local methane availability rather than uniform dilution from source environments"
+  year: 2026
+  doi: 10.64898/2026.10.13.758901
+  authors:
+    - family-names: Park
+      given-names: Jungsoo
+    - family-names: Krause
+      given-names: Sascha M. B.
+    - family-names: Martens
+      given-names: Nesil Han
+    - family-names: Fowler
+      given-names: S. Jane
