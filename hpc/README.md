@@ -5,8 +5,9 @@ records how those tables were produced, so the chain from raw reads to figures
 is documented end to end.
 
 All steps ran on the Digital Research Alliance of Canada cluster **Fir**, under
-Slurm. Raw reads are in ENA under
-[PRJEB109287](https://www.ebi.ac.uk/ena/browser/view/PRJEB109287).
+Slurm. The raw reads are in ENA under
+[PRJEB109287](https://www.ebi.ac.uk/ena/browser/view/PRJEB109287), the same
+deposit that holds the metagenome-assembled genomes.
 
 Input: 15 paired-end libraries (2 x 150 bp, Illumina NovaSeq 6000), comprising
 five composite aerosol metagenomes and ten paired environmental metagenomes

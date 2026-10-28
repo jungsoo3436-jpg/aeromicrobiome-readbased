@@ -145,9 +145,15 @@ steps, and the Materials and Methods of the paper for full detail.
 
 ## Data availability
 
-Raw metagenomic reads are deposited in the European Nucleotide Archive under
-project accession [PRJEB109287](https://www.ebi.ac.uk/ena/browser/view/PRJEB109287),
-released on publication. Sample metadata are in the same project record.
+Raw metagenomic reads and the metagenome-assembled genomes are deposited
+together in the European Nucleotide Archive under project accession
+[PRJEB109287](https://www.ebi.ac.uk/ena/browser/view/PRJEB109287), released on
+publication. Sample metadata are in the same project record.
+
+This is the single deposit for both papers in the study. The MAGs in it are the
+subject of the companion genome-resolved analysis,
+[aeromicrobiome-mags](https://github.com/jungsoo3436-jpg/aeromicrobiome-mags);
+the read-based analyses in this repository start from the same raw reads.
 
 The derived tables in `data/` are included here so the figures can be
 regenerated without re-running the cluster pipeline. See

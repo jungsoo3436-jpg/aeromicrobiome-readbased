@@ -1,8 +1,9 @@
 # Derived data
 
-These are the derived tables and objects the analysis scripts read. Raw
+These are the derived tables and objects the analysis scripts read. The raw
 sequencing reads are not here; they are in ENA under
-[PRJEB109287](https://www.ebi.ac.uk/ena/browser/view/PRJEB109287).
+[PRJEB109287](https://www.ebi.ac.uk/ena/browser/view/PRJEB109287), which also
+holds the metagenome-assembled genomes used by the companion paper.
 
 Everything in this folder is released under CC BY 4.0 (see `../LICENSE-data`).
 
@@ -91,7 +92,7 @@ Both gene catalog files are products of steps 3 and 4 of
 
 ## What is not here
 
-- Raw and quality-filtered reads: ENA PRJEB109287.
+- Raw and quality-filtered reads: ENA PRJEB109287, which also holds the MAGs.
 - Assembled contigs and the 15.2 M gene non-redundant protein catalog: too
   large to version here. Regenerable from the ENA reads with the parameters in
   `../hpc/README.md`.
