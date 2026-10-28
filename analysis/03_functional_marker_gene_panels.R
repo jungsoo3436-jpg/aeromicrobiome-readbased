@@ -4,7 +4,7 @@
 #
 # Author: Jungsoo Park (Simon Fraser University)
 #
-# Produces the five supplementary marker gene heatmaps (Supplementary Figs 5-9):
+# Produces the five supplementary marker gene heatmaps (Supplementary Figs 6-10):
 #   Supp_A_VOC_carbon.pdf   VOC and complex carbon degradation
 #   Supp_B_Nitrogen.pdf     Nitrogen cycling
 #   Supp_C_Phosphorus.pdf   Phosphorus cycling

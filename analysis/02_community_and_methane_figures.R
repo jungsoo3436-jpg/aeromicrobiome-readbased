@@ -10,11 +10,11 @@
 #   4. Figure 4 numbers: site-blocked DESeq2 summary counts
 #   5. Supplementary Table S2: domain read proportions
 #   6. Figure 5A: C1 metabolism marker gene heatmap
-#   7. Supplementary Fig. 3: domain composition per sample
+#   7. Supplementary Fig. 2: domain composition per sample
 #   8. Supplementary Table S3: differentially abundant genera
 #   9. Figure 5B: pmoCAB log2 fold change vs ambient CH4
 #  10. Figure 4: DESeq2 volcano plots (bacteria, eukaryota)
-#  11. Supplementary Fig. 4: methanotroph genera in read-based profiles
+#  11. Supplementary Fig. 5: methanotroph genera in read-based profiles
 #  12. Session info (record package versions for reproducibility)
 #
 # Sections 10 and 11 were originally run from a separate exploratory script and
@@ -781,7 +781,7 @@ ggsave(file.path(OUT_DIR, "Fig5A_C1_metabolism_heatmap.pdf"), plot = fig5A,
 
 
 # =============================================================================
-# SUPPLEMENTARY FIG. 3: domain composition (% of classified reads) per sample
+# SUPPLEMENTARY FIG. 2: domain composition (% of classified reads) per sample
 #   - Uses `dom` from Section 5 (Bracken; human reads removed)
 #   - Bars: one per sample; facets: sites (high -> low CH4)
 # =============================================================================
@@ -824,7 +824,7 @@ supp2 <- ggplot(dom_plot, aes(Label, pct, fill = superkingdom)) +
         legend.position = "bottom",
         legend.text = element_text(size = 16))
 
-ggsave(file.path(OUT_DIR, "SuppFig3_domain_composition.pdf"),
+ggsave(file.path(OUT_DIR, "SuppFig2_domain_composition.pdf"),
        plot = supp2, width = 11, height = 6)
 
 
@@ -1133,7 +1133,7 @@ cat("Saved individual PDFs.\n")
 
 
 # =============================================================================
-# SUPPLEMENTARY FIG. 4: methanotroph genera in read-based taxonomic profiles
+# SUPPLEMENTARY FIG. 5: methanotroph genera in read-based taxonomic profiles
 #   - Supports the Results statement that pmoCAB detection in aerosols at VL
 #     and DF coincides with canonical methanotrophic genera in the Bracken
 #     profiles at those sites
@@ -1166,7 +1166,7 @@ ps_rel_all  <- transform_sample_counts(ps_bac_all, function(x) x / sum(x))
 ps_meth_rel <- subset_taxa(ps_rel_all, genus %in% methanotroph_genera)
 
 if (ntaxa(ps_meth_rel) == 0) {
-  warning("No methanotroph genera detected; Supplementary Fig. 4 not written.")
+  warning("No methanotroph genera detected; Supplementary Fig. 5 not written.")
 } else {
 
   df_meth <- psmelt(ps_meth_rel)
@@ -1230,9 +1230,9 @@ if (ntaxa(ps_meth_rel) == 0) {
           axis.text.y = element_text(face = "italic", size = 10,
                                      colour = "black"))
 
-  ggsave(file.path(OUT_DIR, "SuppFig4_methanotroph_genera_barplot.pdf"),
+  ggsave(file.path(OUT_DIR, "SuppFig5_methanotroph_genera_barplot.pdf"),
          plot = supp4A, width = 12, height = 7)
-  ggsave(file.path(OUT_DIR, "SuppFig4_methanotroph_genera_heatmap.pdf"),
+  ggsave(file.path(OUT_DIR, "SuppFig5_methanotroph_genera_heatmap.pdf"),
          plot = supp4B, width = 12, height = 7)
 
   # Per-site totals quoted in the Results

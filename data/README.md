@@ -18,18 +18,27 @@ Sites, ordered from high to low ambient methane:
 
 | Code | Site | CH4 (ppm) | Paired environment |
 | --- | --- | --- | --- |
-| VL | Vancouver Landfill | 85.978 | Soil |
-| DF | Dairy Farm | 26.759 | Soil |
-| MK | Minnekhada Park | 2.624 | Soil |
-| BB | Burns Bog | 2.597 | Water |
-| RM | Richmond Marsh | 2.291 | Soil |
+| VL | Vancouver Landfill | >= 86 | Soil |
+| DF | Dairy Farm | 26.76 | Soil |
+| MK | Minnekhada Park | 2.62 | Soil |
+| BB | Burns Bog | 2.60 | Water |
+| RM | Richmond Marsh | 2.29 | Soil |
 
-The aerosol library at Burns Bog is `A_BB1` and at the landfill `A_VL2`; the
-numbering reflects which impinger pool yielded a usable library, not a
-replicate. The two Simon Fraser University and Burnaby Refinery aerosol samples
-yielded insufficient DNA for library construction and appear only in the flow
-cytometry panels, where their values are hard-coded in
-`analysis/02_community_and_methane_figures.R`.
+The landfill value exceeded the upper calibration limit of the analyser
+(30 ppm) and was not diluted before measurement, so it is reported as a lower
+bound rather than a measured concentration. `metadata.txt` stores the raw
+instrument reading for that site.
+
+Each site contributed nine independent impinger collections of 4.5 m3 air
+(eight at Burns Bog and the landfill), pooled before extraction. The aerosol
+library at Burns Bog is `A_BB1` and at the landfill `A_VL2`; the numbering
+reflects which impinger pool yielded a usable library, not a replicate.
+
+Aerosol DNA from Simon Fraser University (SFU) and Capitol Hill Conservation
+Area (CH) was insufficient for library construction, so those two sites appear
+only in the flow cytometry panels, where their values are hard-coded in
+`analysis/02_community_and_methane_figures.R`. Their paired soil metagenomes
+were excluded from analysis because no paired aerosol metagenome exists.
 
 ## Files
 

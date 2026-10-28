@@ -31,8 +31,11 @@ parent project directory hold the summary reports.
 
 | Step | Tool | Version | Key parameters |
 | --- | --- | --- | --- |
-| Classification | Kraken2 | as cited | standard database (bacteria, archaea, viruses, plasmids, human, UniVec), downloaded August 2025 |
+| Classification | Kraken2 | as cited | PlusPF database (standard database plus protozoa and fungi), downloaded August 2025 |
 | Abundance re-estimation | Bracken | as cited | read length 150 bp, genus level |
+
+Because PlusPF adds protozoa and fungi to the standard set, eukaryotic profiles
+are restricted to the fungi and protozoa that database represents.
 
 Per-sample Bracken reports were merged with their taxonomy into
 `data/bracken_with_taxonomy.tsv`, which is the input to

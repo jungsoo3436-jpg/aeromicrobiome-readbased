@@ -1,6 +1,6 @@
 ###############################################################################
 # Aerosol metagenome manuscript (read-based community analysis)
-# Step 04: Archaeal and viral diversity and composition (Supplementary Fig. 2)
+# Step 04: Archaeal and viral diversity and composition (Supplementary Fig. 3)
 #
 # Author: Jungsoo Park (Simon Fraser University)
 #
@@ -15,8 +15,8 @@
 # supplementary rather than main-text.
 #
 # Input  : data/phyloseq/psf_{archaea,viruses}_raref_min.rds
-# Output : figures/SuppFig2_{archaea,viruses}_{shannon,NMDS}.pdf
-#          figures/SuppFig2_archaea_virus_stats.tsv
+# Output : figures/SuppFig3_archaea_virus.pdf
+#          figures/SuppFig3_archaea_virus_stats.tsv
 #
 # Settings match 02_community_and_methane_figures.R so the archaeal and viral
 # tests are directly comparable with the bacterial and eukaryotic ones:
@@ -130,7 +130,7 @@ vir <- analyse_domain("psf_viruses_raref_min.rds", "Viruses")
 
 stats <- bind_rows(arc$stats, vir$stats)
 print(stats)
-write_tsv(stats, file.path(OUT_DIR, "SuppFig2_archaea_virus_stats.tsv"))
+write_tsv(stats, file.path(OUT_DIR, "SuppFig3_archaea_virus_stats.tsv"))
 
 supp2 <- (arc$div + arc$ord) / (vir$div + vir$ord) +
   plot_layout(widths = c(1, 1.5), guides = "collect") +
@@ -140,9 +140,9 @@ supp2 <- (arc$div + arc$ord) / (vir$div + vir$ord) +
     theme = theme(plot.title = element_text(face = "bold", size = 11))
   )
 
-ggsave(file.path(OUT_DIR, "SuppFig2_archaea_virus.pdf"),
+ggsave(file.path(OUT_DIR, "SuppFig3_archaea_virus.pdf"),
        plot = supp2, width = 11, height = 8)
 
 writeLines(capture.output(sessionInfo()),
            file.path(OUT_DIR, "sessionInfo_04.txt"))
-cat("\nDone. Supplementary Fig. 2 panels and statistics written to", OUT_DIR, "\n")
+cat("\nDone. Supplementary Fig. 3 panels and statistics written to", OUT_DIR, "\n")

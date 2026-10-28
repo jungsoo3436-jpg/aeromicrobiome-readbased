@@ -3,8 +3,9 @@ message: If you use this code or the derived data, please cite the paper below.
 title: "aeromicrobiome-readbased: read-based community and gene-centric analysis of paired aerosol and source-environment metagenomes"
 abstract: >-
   Analysis code and derived data for a paired aerosol and source-environment
-  shotgun metagenomic survey across five Metro Vancouver sites spanning a
-  40-fold range in ambient methane. Covers Kraken2/Bracken taxonomic profiling,
+  shotgun metagenomic survey across five sites in the lower mainland of
+  British Columbia spanning a
+  35-fold methane range. Covers Kraken2/Bracken taxonomic profiling,
   diversity and ordination, site-blocked DESeq2 differential abundance, and
   curated marker gene profiling against a non-redundant gene catalog.
 type: software
@@ -19,22 +20,31 @@ keywords:
 authors:
   - family-names: Park
     given-names: Jungsoo
-    affiliation: "Department of Biological Sciences, Simon Fraser University, Burnaby, Canada"
+    affiliation: "Department of Biological Sciences, Simon Fraser University, Burnaby, BC, Canada"
     email: jungsoop@sfu.ca
   - family-names: Martens
     given-names: Nesil Han
-    affiliation: "Department of Biological Sciences, Simon Fraser University, Burnaby, Canada"
+    affiliation: "Department of Biological Sciences, Simon Fraser University, Burnaby, BC, Canada"
+    email: nhm3@sfu.ca
   - family-names: Krause
     given-names: Sascha M. B.
-    affiliation: "School of Ecological and Environmental Sciences, East China Normal University, Shanghai, China"
+    affiliation: "National Field Observation and Research Station (Zhejiang Tiantong) for Forest Ecosystem, School of Ecological and Environmental Sciences, East China Normal University, Shanghai, China"
+    email: ssa@des.ecnu.edu.cn
   - family-names: Kumar
+    given-names: Anand
+    affiliation: "Department of Mechanical Engineering, University of British Columbia, Vancouver, BC, Canada"
+    email: anand.kumar@ubc.ca
   - family-names: Zimmerman
+    given-names: Naomi
+    affiliation: "Department of Mechanical Engineering, University of British Columbia, Vancouver, BC, Canada"
+    email: nzimmerman@mech.ubc.ca
   - family-names: Borduas-Dedekind
     given-names: Nadine
-    affiliation: "University of British Columbia, Vancouver, Canada"
+    affiliation: "Department of Chemistry, University of British Columbia, Vancouver, BC, Canada"
+    email: borduas@chem.ubc.ca
   - family-names: Fowler
     given-names: S. Jane
-    affiliation: "Department of Biological Sciences, Simon Fraser University, Burnaby, Canada"
+    affiliation: "Department of Biological Sciences, Simon Fraser University, Burnaby, BC, Canada"
     email: sjfowler@sfu.ca
 preferred-citation:
   type: article
@@ -50,7 +60,9 @@ preferred-citation:
     - family-names: Krause
       given-names: Sascha M. B.
     - family-names: Kumar
+      given-names: Anand
     - family-names: Zimmerman
+      given-names: Naomi
     - family-names: Borduas-Dedekind
       given-names: Nadine
     - family-names: Fowler
