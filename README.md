@@ -2,11 +2,12 @@
 
 Analysis code and derived data for:
 
-**Methane oxidation genes in atmospheric aerosols reflect local methane availability rather than uniform dilution from source environments**
+**Methane oxidation genes are only present in bioaerosols at sites with high methane concentrations**
 
-Jungsoo Park, Sascha M.B. Krause, Nesil Han Martens, S. Jane Fowler
+Jungsoo Park, Nesil Han Martens, Sascha M.B. Krause, Kumar, Zimmerman,
+Nadine Borduas-Dedekind, S. Jane Fowler
 
-Preprint: https://doi.org/10.64898/2026.10.13.758901
+Preprint: https://doi.org/10.64898/2026.10.13.758901 (posted 14 October 2026)
 
 ---
 

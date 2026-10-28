@@ -21,27 +21,37 @@ authors:
     given-names: Jungsoo
     affiliation: "Department of Biological Sciences, Simon Fraser University, Burnaby, Canada"
     email: jungsoop@sfu.ca
-  - family-names: Krause
-    given-names: Sascha M. B.
-    affiliation: "School of Ecological and Environmental Sciences, East China Normal University, Shanghai, China"
   - family-names: Martens
     given-names: Nesil Han
     affiliation: "Department of Biological Sciences, Simon Fraser University, Burnaby, Canada"
+  - family-names: Krause
+    given-names: Sascha M. B.
+    affiliation: "School of Ecological and Environmental Sciences, East China Normal University, Shanghai, China"
+  - family-names: Kumar
+  - family-names: Zimmerman
+  - family-names: Borduas-Dedekind
+    given-names: Nadine
+    affiliation: "University of British Columbia, Vancouver, Canada"
   - family-names: Fowler
     given-names: S. Jane
     affiliation: "Department of Biological Sciences, Simon Fraser University, Burnaby, Canada"
     email: sjfowler@sfu.ca
 preferred-citation:
   type: article
-  title: "Methane oxidation genes in atmospheric aerosols reflect local methane availability rather than uniform dilution from source environments"
+  title: "Methane oxidation genes are only present in bioaerosols at sites with high methane concentrations"
   year: 2026
+  month: 10
   doi: 10.64898/2026.10.13.758901
   authors:
     - family-names: Park
       given-names: Jungsoo
-    - family-names: Krause
-      given-names: Sascha M. B.
     - family-names: Martens
       given-names: Nesil Han
+    - family-names: Krause
+      given-names: Sascha M. B.
+    - family-names: Kumar
+    - family-names: Zimmerman
+    - family-names: Borduas-Dedekind
+      given-names: Nadine
     - family-names: Fowler
       given-names: S. Jane
