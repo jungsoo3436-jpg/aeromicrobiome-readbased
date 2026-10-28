@@ -82,7 +82,7 @@ BiocManager::install(c("phyloseq", "DESeq2", "apeglm"))
 
 ## Figure and table mapping
 
-| Manuscript item | Script | Output in `figures/` |
+| Manuscript item | Script | Output filename |
 | --- | --- | --- |
 | Figure 2 (flow cytometry) | 02 | `Fig2_flow_cytometry.pdf` |
 | Figure 3A-E (diversity, NMDS, Procrustes) | 02 | `Fig3A`-`Fig3E_*.pdf`, plus combined layouts |
@@ -97,6 +97,12 @@ BiocManager::install(c("phyloseq", "DESeq2", "apeglm"))
 | Supplementary Table S1 (marker gene to KO map) | 03 | defined in the `tribble()` blocks of script 03 |
 | Supplementary Table S2 (domain read proportions) | 02 | `TableS2_domain_read_proportions.csv` |
 | Supplementary Table S3 (differentially abundant genera) | 02 | `TableS3_differentially_abundant_genera.csv` |
+
+`figures/` holds the figures as they went into the manuscript, but not every
+file in the table above: the Figure 3 panels, the Figure 4 volcanoes, the
+Supplementary Fig. 2 and 4 panels and Table S2 were saved elsewhere during
+drafting and are not pre-committed. Running scripts 02 to 04 writes the
+complete set into `figures/`.
 
 `figures/Fig1_sampling_map.pdf` was prepared outside R.
 `figures/Fig2C_TCC_vs_reads.pdf` is an additional panel that is not part of the
